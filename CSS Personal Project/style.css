@@ -1,157 +1,154 @@
 @font-face {
-    font-family: Gilroy;
-    src: url(./Fonts/Gilroy-BoldItalic.ttf);
+  font-family: Gilroy;
+  src: url(./Fonts/Gilroy-BoldItalic.ttf);
 }
 
 @font-face {
-    font-family: Work Sans;
-    src: url(./Fonts/WorkSans-Italic.ttf);
+  font-family: Work Sans;
+  src: url(./Fonts/WorkSans-Italic.ttf);
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html, body{
-    height: 100%;
-    width: 100%;
-    font-family: Gilroy;
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Gilroy;
 }
 
-#main{
-    height: 100%;
-    width: 100%;
-    /* background-color: rgba(86,8,65,255); */
+#main {
+  height: 100%;
+  width: 100%;
+  /* background-color: rgba(86,8,65,255); */
 }
 
-#nav{
-    height: 70px;
-    width: 100%;
-    padding: 20px 0px 0px 20px;
-    /* background-color: red; */
-    display: flex;
-    justify-content: space-between;
+#nav {
+  height: 70px;
+  width: 100%;
+  padding: 20px 0px 0px 20px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
 }
 
-#nav1 img{
-    height: 60px;
-    border-radius: 5%;
-
+#nav1 img {
+  height: 60px;
+  border-radius: 5%;
 }
 
-#nav2 a{
-    /* color: white; */
-    text-decoration: none;
-    margin-right: 40px;
-    /* color: rgb(255, 255, 255); */
+#nav2 a {
+  /* color: white; */
+  text-decoration: none;
+  margin-right: 40px;
+  /* color: rgb(255, 255, 255); */
 }
 
-#nav2 a:hover{
-    color: rgb(152, 105, 152);
+#nav2 a:hover {
+  color: rgb(152, 105, 152);
 }
 
-#welcome{
-    height: 99%;
-    width: 100%;
-    /* background-color: red; */
+#welcome {
+  height: 99%;
+  width: 100%;
+  /* background-color: red; */
 }
 
-#welcome h2{
-    /* color: white; */
-    font-family: Work Sans;
-    font-weight: 300;
-    font-size: 70px;
+#welcome h2 {
+  /* color: white; */
+  font-family: Work Sans;
+  font-weight: 300;
+  font-size: 70px;
 }
 
-#features-images{
-    display: flex;
-    align-items: center;
-    overflow-x: auto;
+#features-images {
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
 }
 
-#features-images img{
-    height: 600px;
-    flex-shrink: 0;
+#features-images img {
+  height: 600px;
+  flex-shrink: 0;
 }
 
-#welcome h2{
-    text-align: center;
+#welcome h2 {
+  text-align: center;
 }
 
-#features-images::-webkit-scrollbar{
-    background: transparent;
-    height: 10px;
+#features-images::-webkit-scrollbar {
+  background: transparent;
+  height: 10px;
 }
 
-#features-images::-webkit-scrollbar-thumb{
-    background-color: rgb(248, 0, 203);
+#features-images::-webkit-scrollbar-thumb {
+  background-color: rgb(248, 0, 203);
 }
 
-#features{
-    height: 700px;
-    width: 100%;
-    display: flex;
-    overflow-x: auto;
-    overflow-y: hidden;
-    /* background-color: red; */
+#features {
+  height: 700px;
+  width: 100%;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  /* background-color: red; */
 }
 
-#feature1{
-    flex-shrink: 0;
-    height: 700px;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* background-color: blue; */
+#feature1 {
+  flex-shrink: 0;
+  height: 700px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: blue; */
 }
 
-#feature1 img{
-    height: 90%;
-    /* object-fit: cover; */
+#feature1 img {
+  height: 90%;
+  /* object-fit: cover; */
 }
 
-
-#feature2{
-    height: 700px;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* background-color: green; */
+#feature2 {
+  height: 700px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: green; */
 }
 
-#feature2 img{
-    height: 90%;
-    /* object-fit: cover; */
+#feature2 img {
+  height: 90%;
+  /* object-fit: cover; */
 }
 
-#feature3{
-    height: 700px;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: voile;
+#feature3 {
+  height: 700px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: voile;
 }
 
-#feature3 img{
-    height: 90%;
-    /* object-fit: cover; */
+#feature3 img {
+  height: 90%;
+  /* object-fit: cover; */
 }
 
-#features::-webkit-scrollbar{
-    background: transparent;
-    height: 7px;
+#features::-webkit-scrollbar {
+  background: transparent;
+  height: 7px;
 }
 
-#features::-webkit-scrollbar-thumb{
-    background-color: orangered;
-    
+#features::-webkit-scrollbar-thumb {
+  background-color: orangered;
 }
-
