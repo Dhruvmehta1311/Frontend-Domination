@@ -1,0 +1,160 @@
+@font-face {
+  font-family: Gilroy;
+  src: url(./Fonts/Gilroy-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: work sans;
+  src: url(./Fonts/WorkSans-Italic.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Gilroy;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  /* justify-content: space-between; */
+  padding: 0px 90px;
+  padding-top: 100px;
+  gap: 70px;
+}
+
+#left {
+  height: 100%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: red; */
+  padding: 50px 10px;
+}
+
+#left h1 {
+  font-family: work sans;
+  font-size: 120px;
+  font-weight: 500;
+}
+
+#bottom-left {
+  /* height: 40%; */
+  width: 100%;
+  /* background-color: yellow; */
+}
+
+#color {
+  /* background-color: blue; */
+  width: fit-content;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  border-radius: 50px;
+}
+
+#color h5 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#color1 {
+  height: 20px;
+  width: 20px;
+  margin: 3px;
+  background-color: burlywood;
+  border-radius: 50%;
+}
+#color2 {
+  height: 20px;
+  width: 20px;
+  margin: 3px;
+  border-radius: 50%;
+  background-color: brown;
+}
+
+#left h2 {
+  margin-top: 20px;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+#left p {
+  font-size: 15px;
+  width: 90%;
+  font-weight: 600;
+  color: #444;
+  line-height: 20px;
+}
+
+#right {
+  height: 90%;
+  width: 33%;
+  position: relative;
+  /* background-color: blue; */
+  /* padding-top : 80px; */
+}
+
+#right-top {
+  height: 50px;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+}
+
+#right-top h4 {
+  font-family: work sans;
+}
+
+#right-top h5 {
+  font-size: 15px;
+}
+
+#right img {
+  height: 91.5%;
+  width: 100%;
+  position: absolute;
+  left: 20px;
+  object-fit: cover;
+}
+
+#black-circle {
+  position: absolute;
+  height: 140px;
+  width: 140px;
+  background-color: #ffffff;
+  color: rgb(17, 17, 17);
+  left: 400px;
+  border-radius: 50%;
+  bottom: 250px;
+  display: flex;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+}
+
+#black-circle h5 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#rotated {
+  position: absolute;
+  left: -110px;
+  /* background-color: green; */
+  bottom: 200px;
+  rotate: 270deg;
+}

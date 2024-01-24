@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    display: grid;
+    color: white;
+    padding: 50px;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+    
+}
+
+#box1{
+    background-color: red;
+    height: 90px;
+    width: 100%;
+}
+
+#box2{
+    background-color: purple;
+    height: 90px;
+    width: 100%;
+}
+
+#box3{
+    background-color: green;
+    height: 400px;
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#box4{
+    background-color: yellow;
+    height: 200px;
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+@media (max-width:600px) {
+
+}

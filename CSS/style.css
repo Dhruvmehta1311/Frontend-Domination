@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: open sans;
+}
+
+/* h1 {
+  height: 300px;
+  width: 300px;
+  background-color: red;
+  margin-left: 20px;
+  margin-top: 30px;
+} */
+
+/* body {
+  background-color: rgba(127, 134, 127, 0.863);
+  
+}
+
+.units_heading {
+  margin-left: 5px;
+  font-family: Oswald;
+}
+
+.units {
+  margin-left: 20px;
+} */
+
+/* #test {
+    width: 50%;
+    height: 50%;
+    background-color: green;
+} */
+
+/* #test {
+  width: 10vw;
+  height: 20vw;
+  background-color: red;
+} */
+
+/* #practice {
+    width: 600px;
+    height: 200px;
+    background-color: red;
+}
+
+#child {
+    width: 100vw;
+    height: 100vh;
+    background-color: green;
+} */
+
+/* #test {
+    font-size: 300px;
+    width: 2em;
+    height: 2em;
+    background-color: red;
+} */
+
+/* html{
+    font-size: 30px;
+} */
+
+/* #test {
+    font-size: 30px;
+    width: 2rem;
+    height: 2rem;
+    background-color: red;
+} */
+
+/* #main {
+    background-color: green;
+    height: 80%;
+    width: 60%;
+    overflow: hidden;
+    
+}
+
+#percentage_child {
+    background-color: purple;
+    height: 150vh;
+    width: 200vh;
+
+}
+
+#em_parent {
+    font-size: 10px;
+}
+
+#em_child {
+    font-size: 30px;
+    background-color: rgb(176, 81, 176);
+    height: 10em;
+    width: 10em;
+} */
+
+/* #car1 {
+    position: absolute;
+    width: 100px;
+    height: 140px;
+    background-color: red;
+    left: 230px;
+}
+
+#car2 {
+    width: 80px;
+    height: 120px;
+    background-color: rgb(40, 181, 75);
+}
+
+#car3 {
+    width: 105px;
+    height: 90px;
+    background-color: rgb(226, 255, 6);
+} */
+
+/* #box {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  background-color: red;
+}
+
+#cube {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: yellow;
+  left: 100%;
+} */
+
+/* #box {
+    display: inline;
+    background-color: red;
+    height: 100px;
+}
+
+#cube {
+    background-color: green;
+    display: inline;
+} */
+
+/* #car1 {
+    background-color: red;
+    height: 150px;
+    width: 30px;
+    position: absolute;
+}
+#car2 {
+    background-color: green;
+    height: 250px;
+    width: 120px;
+    position: absolute;
+}
+#car3 {
+    background-color: purple;
+    height: 250px;
+    width: 200px;
+} */
+
+/* #box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}
+
+#cube {
+    position: absolute;
+    background-color: rgb(0, 245, 33);
+    height: 30px;
+    width: 30px;
+    left: 90%;
+} */
+
+/* #box {
+    
+    width: 300px;
+    height: 300px;
+    background: url(https://images.unsplash.com/photo-1704655490699-3d8e5b4bd34f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+} */
+
+/* p{
+    width: fit-content;
+    color: red;
+    position: relative;
+    
+}
+
+p::before{
+    position: absolute;
+    content: "";
+    top: 100%;
+    width:100%;
+    height: 3px;
+    background-color: purple;
+
+} */
+
+/* h1::first-line{
+    color: red;
+} */
+
+/* h1::first-letter{
+    font-size: 120px;
+} */
+
+/* h1::selection{
+    background-color: purple ;
+} */
+
+/* h1:hover{
+    color: red;
+} */
+
+/* button:active{
+    background-color: red;
+} */
+
+/* input:focus{
+    background-color: magenta;
+} */
+
+/* p:nth-child(3){
+    color: red;
+} */
+
+
+/* #main{
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elem{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    border: 3px solid black;
+} */
+
+
+#nav {
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 10% 10% 10% 10% 10%;
+    justify-content: space-evenly;
+    grid-template-rows: 100px;
+    align-items: center;
+    justify-items: center;
+    background-color: rebeccapurple;
+    
+}
+
+#h1{
+    position: absolute;
+    justify-self: start;
+    left: 30px;
+}
