@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* #parent {
+  display: flex;
+  margin-left: 10px;
+  height: 500px;
+  width: 500px;
+  background-color: cyan;
+}
+
+#child{
+    height: 90%;
+    width: 90%;
+    background-color: salmon;
+}
+
+#child-2{
+    height: 10%;
+    width: 5%;
+    background-color: green;
+} */
+
+h1{
+    font-size: 105px;
+}

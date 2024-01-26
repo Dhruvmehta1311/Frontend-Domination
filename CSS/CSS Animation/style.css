@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 90%;
+    width: 90%;
+    background-color: lightskyblue;
+}
+
+#box{
+    position: absolute;
+    height: 30vh;
+    width: 27vw;
+    background-color: crimson;
+}
+
+.animations{
+    animation-name: anime;
+    animation-duration: 3s;
+    animation-iteration-count: 4;
+
+}
+
+#main{
+    position: relative;
+}
+
+#box-2{
+    position: absolute;
+    top: 30vh;
+    height: 40vh;
+    width: 27vw;
+    background-color: grey;
+}
+
+@keyframes anime {
+    from{
+        left: 0;
+    }
+
+    to{
+        left: 80%;
+        rotate: 90deg;
+    }
+}
