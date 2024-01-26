@@ -9,7 +9,76 @@ body, html{
     width: 100%;
 }
 
-#box1{
+body{
+    background-color: black;
+    padding: 10vw;
+}
+
+button{
+    padding: 20px 40px;
+    background-color: transparent;
+    border: 3px solid cyan;
+    transition: linear 0.3s;
+    color: cyan;
+    font-weight: 900;
+    position: relative;
+    overflow: hidden;
+}
+
+button::after{
+    content: "";
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: cyan;
+    transition: linear 0.5s;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    z-index: -1;
+}
+
+button:hover::after{
+    /* width: 100%; */
+    transform: translate(-50%, -50%) scale(2.2);
+}
+
+button:hover{
+    color: black;
+}
+
+
+
+
+
+
+
+
+/* button::after{
+    content: "";
+    height: 100%;
+    width: 0%;
+    background-color: cyan;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: linear 0.6s;
+    z-index: -4;
+} */
+
+/* button:hover::after{
+    width: 100%;
+}
+
+button:hover{
+    color: black;
+} */
+
+
+
+
+/* #box1{
     height: 300px;
     width: 300px;
     background-color: crimson;
@@ -35,10 +104,10 @@ body, html{
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
-}
+} */
 
 
-@keyframes box-anime {
+/* @keyframes box-anime {
     from{
         left: 0;
 
@@ -46,7 +115,7 @@ body, html{
     to{
         left: 75%;
     }
-}
+} */
 
 
 
