@@ -59,6 +59,9 @@ html, body{
     position: relative;
 }
 
+#nav h3{
+    display: none;
+}
 #nav h1::after{
     content: "©️";
     font-family: Gilroy;
@@ -439,16 +442,391 @@ html, body{
     }
 }
 
-
-
-
-
 @keyframes anime {
     from{
         transform: translateX(0);
     }
     to{
         transform: translateX(-100%);
+    }
+    
+}
+
+
+@media (max-width: 600px) {
+    body{
+        overflow-x: hidden;
+    }
+    #nav{
+        height: 8vh;
+        margin-top: 15px;
+    }
+    
+    #nav h1{
+        /* background-color: blue; */
+        width: 30%;
+        justify-content: flex-start;
+        font-size: 20px;
+    }
+    
+    #nav h1::after{
+        display: none;
+    
+    }
+    
+    #nav h1::before{
+        display: none;
+    }
+    
+    #nav h2{
+        display: none;
+    }
+
+    #nav h3{
+        display: block;
+        cursor: pointer;
+    }
+
+    #center{
+        height: 40%;
+        width: 100%;
+        padding: 3vw;
+        position: relative;
+        /* background-color: red; */
+    }
+    
+    #content{
+        height: 100%;
+        width: 100%;
+        /* background-color: blue; */
+        position: relative;
+    }
+    
+    #content video{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    #overlay{
+        height: fit-content;
+        width: 100%;
+        /* background-color: red; */
+        position: absolute;
+        bottom: 0;
+        padding: 3vw;
+    }
+    
+    #over-1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 2vw;
+    }
+    
+    #over-1 h1{
+        font-family: Monument_Regular;
+        font-size: 3.3vw;
+        font-weight: 800;
+        color: #FFF;
+    }
+    
+    #over-1 h2{
+        font-size: 2vw;
+        /* background-color: blue; */
+        padding: 2vw 2.4vw;
+        border-radius: 50%;
+        color: #FFF;
+        border: 1px solid #fff;
+        /* border-bottom: 2px solid #fff; */
+    
+    }
+    
+    #over-2{
+        border-top: 2px solid #FFF;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1vw 0;
+    }
+    
+    #over-2 h4{
+        font-size: 1.5vw;
+        color: #FFF;
+        font-weight: 500;
+    }
+    
+    #over-2 img{
+        height: 4vw;
+    }
+
+    #scroll{
+        height: 25vh;
+        /* background-color: red; */
+        white-space: nowrap;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        padding: 2vh;
+        
+    }
+    
+    #container{
+        /* display: flex; */
+        height: 100%;
+        width: 150%;
+        /* background-color: blue; */
+        /* border: 1px solid black; */
+        display: inline-block;
+        padding: 1vw;
+        animation-name: anime;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-duration: 10s;
+        
+        
+    }
+    
+    #container img{
+        /* display: none; */
+        height: 80%;
+        width: 15%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 50%;
+        margin: 1vw;
+        margin-right: 1vh;
+    }
+
+    #alphabets{
+        height: 5vh;
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1vw;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+    
+    #alphabets h5{
+        font-size: 1vw;
+        text-transform: uppercase;
+        font-weight: 400;
+        letter-spacing: 4px;
+        font-style: italic;
+        border-bottom: 2px solid black;
+        margin-right: 2vw;
+    }
+    
+    #alphabets h6{
+        font-size: 1vw;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-style: italic;
+        letter-spacing: 4px;
+        /* background-color: yellow; */
+        padding: 0.5vw 0.4vw;
+        border: 1px solid rgba(0, 0, 0, 0);
+        border-radius: 50%;
+        transition: all ease 0.2s;
+    }
+    
+    #alphabets h6:hover{
+        border: 1px solid black;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    
+    #page2{
+        height: 50%;
+        width: 100%;
+        padding: 2vh 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    #page2-part1{
+        height: 100%;
+        width: 50%;
+        /* background-color: green; */
+        background-image: url(https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        object-fit: fill;
+        background-size: cover;
+    }
+    
+    #page2-part2{
+        height: 100%;
+        width: 44%;
+        /* background-color: red; */
+    }
+    
+    #page2-part2 img{
+        /* display: none; */
+        height: 65%;
+        width: 100%;
+        object-fit: cover;
+        background-size: cover;
+    }
+    
+    #part2-bottom{
+        height: 15%;
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        align-items: center;justify-content: space-between;
+    }
+    
+    #part2-bottom-1{
+        
+        width: 50%;
+        height: 80%;
+        /* background-color: green; */
+    }
+    
+    #part2-bottom-1 h3{
+        font-weight: 300;
+        font-size: 1.5vh;
+        margin-left: 2vh;
+    }
+    
+    #part2-bottom-2{
+        height: 80%;
+        font-size: 3vh;
+        width: 40%;
+        /* background-color: red; */
+    }
+    
+    #part2-bottom-2 h6{
+        font-size: 1.5vh;
+        font-weight: 400;
+    }
+    
+    #page2-part1-text{
+        height: 3vw;
+        width: 50%;
+        /* background-color: red; */
+        text-align: left;
+        margin-left: 4vh;
+    }
+    
+    #page2-part1-text h2{
+        font-family: Monument;
+        text-transform: uppercase;
+        font-style: italic;
+        font-size: 3.8vw;
+        font-weight: 900;
+    }
+
+    #page3{
+        margin-top: 1vh;
+        height: 75%;
+        width: 100%;
+        /* background-color: red; */
+        padding: 4vw 5vw;
+    }
+    
+    #page3>h3{
+        text-align: center;
+        font-family: monument_regular;
+        text-transform: uppercase;
+        font-size: 2.5vw;
+        font-weight: 900;
+        margin-bottom: 2vh;
+    }
+    
+    .elem{
+        height: 15vh;
+        width: 100%;
+        /* background-color: red; */
+        border-top: 1px solid #000;
+        padding: 2vw 2vw;
+        /* margin-top: 2vh; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+    }
+    
+    .elem #elem-part2{
+        width: 40%;
+    }
+    
+    .elem img{
+        position: absolute;
+        height: 13vh;
+        width: 13vh;
+        object-fit: cover;
+        background-position: center;
+        border-radius: 50%;
+        left: 20%;
+        opacity: 0;
+        transition: all ease 0.7s;
+    }
+    
+    .elem:nth-last-child(1){
+        border-bottom: 1px solid black;
+    }
+    
+    .elem:hover img{
+        left: 30%;
+        opacity: 1;
+    }
+    
+    #marque{
+
+        /* height: 15vh; */
+        width: 100%;
+        /* background-color: red; */
+        white-space: nowrap;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    
+    #marque h1{
+        display: inline-block;
+        font-size: 3vw;
+        text-transform: uppercase;
+        font-weight: 900;
+        -webkit-text-stroke: 0.5px black;
+        color: transparent;
+        font-family: monument_regular;
+        /* background-color: blue; */
+        margin-right: 20px;
+        animation-name: marque;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        
+    }
+    
+    #footer{
+        height: 10%;
+        width: 100%;
+        display: none;
+        
+    }
+    
+    
+    
+    @keyframes marque {
+        from{
+            transform: translateX(0);
+        }
+        to{
+            transform: translateX(calc(-100% - 20px));
+        }
+    }
+    
+    @keyframes anime {
+        from{
+            transform: translateX(0);
+        }
+        to{
+            transform: translateX(-100%);
+        }
+        
     }
     
 }
