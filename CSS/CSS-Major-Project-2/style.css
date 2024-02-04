@@ -1,0 +1,125 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(./Fonts/Gilroy-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: dribble;
+    src: url(./Fonts/dribbble\ font.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#page1{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+}
+
+#nav{
+    height: 15vh;
+    width: 100%;
+    /* background-color: rgba(255, 255, 9, 0.808); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+#nav-part1{
+    width: 30%;
+    /* background-color: skyblue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-part1 h4{
+    font-size: 2vh;
+    font-weight: 900;
+}
+
+#nav img{
+    height: 13vh;
+}
+
+#nav-part2{
+    width: 30%;
+    /* background-color: skyblue; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#nav-part2 button{
+    padding: 12px 18px;
+    border-radius: 50px;
+    font-size: 13px;
+    color: white;
+    background-color: #000;
+    margin: 0 10px;
+}
+
+#nav-part2 button:nth-child(1){
+    background-color: transparent;
+    color: black;
+    border: none;
+}
+
+
+#content{
+    height: calc(100% - 15vh);
+    width: 100%;
+    /* background-color: green; */
+    padding-top: 100px;
+}
+
+#content h3{
+    background-color: #D9CAEC;
+    padding: 8px 16px;
+    width: fit-content;
+    border-radius: 50px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 17px;
+}
+
+#content h1{
+    font-size: 50px;
+    text-align: center;
+    margin: 25px 0;
+    font-family: dribble;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+#content h4{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+#content button{
+    padding: 12px 18px;
+    border-radius: 50px;
+    font-size: 13px;
+    color: white;
+    background-color: #000;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 17px;
+    margin: 30px 0;
+    padding: 18px;
+}
