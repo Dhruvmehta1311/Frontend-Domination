@@ -122,4 +122,71 @@ html, body{
     font-size: 17px;
     margin: 30px 0;
     padding: 18px;
+    
+}
+
+#bottom-wrapper{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+#bottom{
+    white-space: nowrap;
+    height: 350px;
+    width: fit-content;
+    /* background-color: red; */
+    padding: 5px;
+    /* display: flex;
+    flex-wrap: nowrap; */
+    overflow-x: auto;
+    overflow-y: hidden;
+    /* gap: 30px; */
+    animation-name: anime;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+
+    
+}
+
+.elem{
+    position: relative;
+    /* flex-shrink: 0; */
+    display: inline-block;
+    height: 100%;
+    width: 250px;
+    background-color: royalblue;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    /* margin-right: 20px; */
+    overflow: hidden;
+}
+
+#bottom::-webkit-scrollbar{
+    display: none;
+}
+
+.elem img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+@keyframes anime {
+    from{
+        /* transform: translateX(0); */
+        left: 0;
+    }
+    to{
+        /* transform: translateX(calc(-100% - 24px)); */
+        left: calc(-80% - 24px);
+    }
 }
