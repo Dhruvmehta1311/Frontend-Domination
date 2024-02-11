@@ -197,8 +197,91 @@
 
 // Parameters - function abcd() -- This is argument in ()
 
-function abcd(val){
-    console.log(12+val)
-}
+// function abcd(val){
+//     console.log(12+val)
+// }
 
-abcd(124);
+// abcd(124);
+
+// ---------------------------------------------------------------------------
+
+// UNDEFINED, NOT DEFINED AND NULL
+
+// Undefined is a value -> It's given when variables doesn't gets any value.( It's more like a Garbage Value, we can also call it as a default value )
+// For Example :
+
+// var a; This will return undefined.
+
+
+// not defined is an error
+// console.log(a); -> This will return as not defined because we haven't defined a.
+
+
+// null is a value.
+// This resolves like, not found.
+// Null is recieved when something is not found.
+
+// ---------------------------------------------------------------------------
+
+// ARRAYS
+
+// What
+// Array is a data structure in which we can store one or more than 1 value.
+
+// var users = ["Dhruv", "Kartik", "Harsh", "Harshita", "Keshav"]
+// console.log(users[1]);
+
+// How
+// Why
+
+// ARRAYS WITH LOOP
+
+// Syntax :
+
+// var arr = [32,12,322,32,43]
+
+// arr.forEach(function(){
+
+// })
+
+// USE
+
+// var arr = [1, 16, 14, 30, 45]
+
+// arr.forEach(function(val){
+//     console.log(val);
+// })
+
+
+// ---------------------------------------------------------------------------
+
+// OBJECTS
+
+// What
+// Object is a way with the help of which we can store details of identity tigether
+
+// How to make objects
+
+// var obj = {};
+// var obj2 = new Object();
+
+// var obj = {
+//     name : "Dhruv",
+//     age : 25,
+//     email : "dhruvmehta1311@gmail.com",
+//     contact : 7082811971
+// }
+
+// var battery = {
+//     company : "Everady",
+//     warranty : "1 Year",
+//     size : "2vw",
+//     isWorking : true
+// }
+
+// console.log(battery.company)
+
+// When & Why -> When we want to save multiple properties of a thing
+
+//  SYNCHRONOUS AND ASYNCHRONOUS JAVASCRIPT
+
