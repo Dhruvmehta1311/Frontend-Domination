@@ -285,3 +285,71 @@
 
 //  SYNCHRONOUS AND ASYNCHRONOUS JAVASCRIPT
 
+// ---------------------------------------------------------------------------
+
+// THIS KEYWORD
+
+// Value of this keyword differs. 
+
+// global - Window
+
+// console.log(this);
+
+// // function - Windpw
+
+// function myFunction(){
+//     console.log(this)
+// }
+
+// myFunction();
+
+// method - object
+
+// var myObj = {
+//     class: function(){
+//         console.log(this);
+//     }
+// }
+// myObj.class();
+
+// Function Inside Method ( ES5) - window
+
+// var obj2 = {
+//     sayName: function(){
+//         function childFunction(){
+//             console.log(this);
+//         }
+//         childFunction();
+//     }
+// }
+// obj2.sayName();
+
+
+// Function inside method (ES6) - object :
+
+// var myObject = {
+//     name: function (){
+//         const child = ()=>{
+//             console.log(this);
+//         }
+//         child();
+//     }
+// }
+
+// myObject.name();
+
+// Constructor function mein this ki value - new blank object
+
+// function sub(){
+//     console.log(this);
+// }
+
+// const ans = new sub();
+
+// what's the value of this keyword in event listener - jispe event listener laga ho
+
+document.querySelector("button")
+.addEventListener("click", function(){
+    console.log(this);
+})
+
